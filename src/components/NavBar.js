@@ -10,7 +10,7 @@ function NavBar() {
     textDecoration: "none",
     color: "white",
   }; */
-  return <div>
+  return <div className="navbar">
      <NavLink
         to="/"
         /* set exact so it knows to only set activeStyle when route is deeply equal to link */
